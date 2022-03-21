@@ -1,6 +1,8 @@
 Welcome to django-plans
 =======================
 
+Fixed By Teson LLP
+
 
 .. image:: https://codecov.io/gh/django-getpaid/django-plans/branch/master/graph/badge.svg?token=oEyv7odqUW
    :target: https://codecov.io/gh/django-getpaid/django-plans
