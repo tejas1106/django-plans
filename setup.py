@@ -8,12 +8,12 @@ with open('README.rst') as file:
     long_description = file.read()
 
 setup(
-    name='django-plans',
+    name='teson-django-plans',
     version=VERSION,
     description='Pluggable django app for managing pricing plans with quotas and accounts expiration',
     long_description=long_description,
     author='Krzysztof Dorosz',
-    author_email='cypreess@gmail.com',
+    author_email='tejasingale1106@gmail.com',
     url='https://github.com/tejas1106/django-plans',
     license='MIT',
 
