@@ -9,7 +9,7 @@ with open('README.rst') as file:
 
 setup(
     name='teson-django-plans',
-    version=VERSION,
+    version="0.8.14",
     description='Pluggable django app for managing pricing plans with quotas and accounts expiration',
     long_description=long_description,
     author='Krzysztof Dorosz',
