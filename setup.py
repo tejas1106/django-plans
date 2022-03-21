@@ -36,6 +36,7 @@ setup(
         'suds',
         'django-sequences',
         'six',
+        'maxminddb-geolite2==2018.703'
     ],
     extras_require={
         'i18n': [
