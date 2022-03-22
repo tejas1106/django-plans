@@ -8,13 +8,13 @@ with open('README.rst') as file:
     long_description = file.read()
 
 setup(
-    name='django-plans',
-    version=VERSION,
+    name='teson-django-plans',
+    version="0.9",
     description='Pluggable django app for managing pricing plans with quotas and accounts expiration',
     long_description=long_description,
-    author='Krzysztof Dorosz',
-    author_email='cypreess@gmail.com',
-    url='https://github.com/cypreess/django-plans',
+    author='Tejas Ingale',
+    author_email='tejasingale1106@gmail.com',
+    url='https://github.com/tejs1106/django-plans',
     license='MIT',
 
     packages=find_packages(),
@@ -36,6 +36,7 @@ setup(
         'suds',
         'django-sequences',
         'six',
+        'maxminddb-geolite2==2018.703'
     ],
     extras_require={
         'i18n': [
